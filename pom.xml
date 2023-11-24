@@ -12,9 +12,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yupi</groupId>
-    <artifactId>springboot-init</artifactId>
+    <artifactId>dvbn-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-init</name>
+    <name>dvbn-api</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -122,6 +122,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.dvbn.api</groupId>
+            <artifactId>api-client-sdk</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
